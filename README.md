@@ -1,16 +1,36 @@
-# LavendAid
-LavendAid is a company that leverages innovative technology and research to prevent sexual violence in communities. We strive to raise awareness, provide aid, and promote accountability for this issue. Our first product is A.L.E.R.T, Assistive Locket for Emergency Response and Tracking that can trigger an emergency app on an iPhone when the user is in danger.
-# Goals
-LavendAid is to introduce different technologies around campuses to create a safe space for everyone. 
-We will be using scientific research to ensure that the projects being introduced are as effective as they can be. 
-ALERT is to provide a quick and discreet way for the user to alert their emergency contact, record evidence, and request help when they are in a dangerous situation.
-Specifications
-ALERT is a locket passive communication tag that uses 13.56 MHz frequency waves to send data to active devices that can receive data and follow instructions programmed in a specific way that when an unlocked iPhone preloaded with a provided specific set of instructions runs an app in the background that follows these steps: 
+# LavendAid - ALERT
 
-# General Section
-ALERT is a product that can help you in case of an emergency. It is a locket that you can wear around your neck, and it can communicate with your iPhone using a special frequency. When you tap the locket with your iPhone, it will activate a shortcut that will do the following things:
-It will send a message and an email to your emergency contact, telling them that you are in danger and giving them your location.
-It will record a video of the situation using your front camera, and send it to your emergency contact as well.
-It will adjust your phone settings to save battery and avoid distractions.
-It will keep updating your location and sending it to your emergency contact every 90 seconds, until you stop the shortcut or your battery runs out.
-ALERT is a simple and discreet way to alert someone and get help when you are in a dangerous situation. It can also provide evidence and information that can be useful for your safety and justice.
+## Overview
+LavendAid is dedicated to leveraging innovative technology and research to prevent sexual violence in communities. ALERT is their first product, a locket that triggers an emergency app on an iPhone when the user is in danger.
+
+## Goals
+- Introduce different technologies around campuses to create a safe space for everyone.
+- Utilize scientific research to ensure effectiveness of projects.
+- Provide a quick and discreet way for users to alert their emergency contacts, record evidence, and request help in dangerous situations.
+
+## Specifications
+- ALERT is a locket passive communication tag using 13.56 MHz frequency waves to communicate with iPhones.
+- When tapped with an iPhone, it activates a shortcut that:
+  - Sends messages and emails to emergency contacts with the user's location.
+  - Records a video of the situation and sends it to emergency contacts.
+  - Adjusts phone settings to conserve battery and minimize distractions.
+  - Updates the user's location to emergency contacts every 90 seconds until stopped or battery runs out.
+
+## Detailed Section
+1. **Vibration Notification**: Alerts user that the process has started.
+2. **Airplane Mode Off, Low Power Mode On**: Ensures phone can send/receive data and conserves battery.
+3. **Battery Check and Connectivity**: Adjusts network settings based on battery level to conserve power.
+4. **Music Paused, Brightness Reduced**: Minimizes distractions or alerts to the attacker.
+5. **Initial Location Saved**: Stores user's initial location for reference.
+6. **Photo Capture**: Takes a photo with the back camera for clarity.
+7. **Alert Message and Email**: Informs emergency contacts of danger, includes location and photo.
+8. **Wait 90 Seconds**: Allows time for user to move or escape.
+9. **Distance Calculation**: Checks if user has moved from initial location.
+10. **Location Update if Moved**: Notifies emergency contacts of user's new location if moved.
+11. **Status Update if Not Moved**: Informs emergency contacts if user remains stationary.
+12. **Repetition for 150 Minutes**: Continuously updates emergency contacts until stopped or battery depleted.
+
+## Future Improvements
+- Optimization for Android using NFC Tools or Trigger app for similar shortcut creation.
+- Personalized setup tag for individuals preloaded with their contacts for automation when a "safe person" brings their phone in contact with the tag.
+
