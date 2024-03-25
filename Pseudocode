@@ -1,0 +1,50 @@
+# Step 1: Vibration Alert
+vibratePhone()
+
+# Step 2: Airplane Mode Off and Low Power Mode On
+turnOffAirplaneMode()
+turnOnLowPowerMode()
+
+# Step 3: Battery Level Check and Network Activation
+batteryLevel = getBatteryLevel()
+if batteryLevel > 5%:
+    activateCellularData()
+    activateWiFi()
+    activateBluetooth()
+else:
+    activateCellularData()
+
+# Step 4: Music Pause and Brightness Adjustment
+pauseMusic()
+decreaseBrightness()
+
+# Step 5: Location Retrieval
+locationA = getCurrentLocation()
+
+# Step 6: Capture Photo
+takePhotoWithBackCamera()
+
+# Step 7: Emergency Notification
+sendTextMessageToEmergencyContact("I'm in danger, check your email for details.")
+sendEmailToEmergencyContact(locationA, photo)
+
+# Step 8: Wait Period
+wait(90 seconds)
+
+# Step 9: Distance Calculation
+currentLocation = getCurrentLocation()
+distanceMoved = calculateDistance(locationA, currentLocation)
+
+# Step 10: Movement Alert
+if distanceMoved > 0.2 km:
+    sendMovementAlertToRecipient(newLocation)
+
+# Step 11: Status Update
+else:
+    sendStatusUpdateToRecipient("No movement detected.")
+
+# Step 12: Repetition
+repeat 100 times:
+    # Continue from Step 7 to Step 11
+    # Wait for 90 seconds between iterations
+    wait(90 seconds)
