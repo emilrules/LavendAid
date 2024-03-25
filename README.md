@@ -26,8 +26,18 @@ A.L.E.R.T is a passive communication locket that utilizes 13.56 MHz frequency wa
 - 🚶 **Location Tracking:** Calculates distance moved within 90 seconds and updates emergency contacts accordingly.
 - 🔁 **Continual Updates:** Runs for approximately 150 minutes to provide continuous updates until deactivated.
 
+## Demo
+![tap](https://github.com/emilrules/LavendAid/assets/57845435/426edfc9-7d4b-47a8-81fb-ed69be418e88)
+![tag2](https://github.com/emilrules/LavendAid/assets/57845435/5bc1b539-1447-4054-b689-55dc4f5f7a82)
+![tag3](https://github.com/emilrules/LavendAid/assets/57845435/5e092da6-7204-4929-a8af-014a012dc393)
+
+
+
 ## Future Improvements
 - 📱 **Android Compatibility:** Explore integration with NFC Tools or Trigger app for similar functionality on Android devices.
 - 🚶‍♂️ **Walk-home Services Integration:** Notify walk-home services during working hours.
 - 🛡️ **Campus Security Notifications:** Alert campus security for periodic checks after activation.
 - 🗺️ **Auto Navigation:** Provide navigation to the nearest Blue-light location for added safety.
+
+![tag4](https://github.com/emilrules/LavendAid/assets/57845435/c67d6c16-76c9-407f-9301-b46069fbb30d)
+
